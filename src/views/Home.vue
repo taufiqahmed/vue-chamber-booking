@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h1>Hello World</h1>
+    <h1>Dashboard</h1>
   </div>
 </template>
 
@@ -10,3 +9,10 @@ export default {
   name: "home"
 };
 </script>
+
+<style>
+.home {
+  padding: 0 10px;
+}
+</style>
+

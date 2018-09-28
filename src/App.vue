@@ -2,7 +2,13 @@
   <div id="app">
     <app-drawer-layout>
     <app-drawer slot="drawer">
-      <app-toolbar>Getting Started</app-toolbar>
+      <app-toolbar>Vue Chamber</app-toolbar>
+      <paper-listbox>
+        <paper-item>Dashboard</paper-item>
+        <paper-item>Manage Chamber</paper-item>
+        <paper-item>Online Booking</paper-item>
+        <paper-item>Settings</paper-item>
+      </paper-listbox>
     </app-drawer>
     <app-header-layout>
       <app-header slot="header">
@@ -40,7 +46,11 @@
 }
 
 app-header {
-  background-color: #00897b;
-  color: #fff;
+  background-color: #fafafa;
+  color: #333;
+}
+
+app-drawer {
+  border-right: 1px solid #ccc;
 }
 </style>

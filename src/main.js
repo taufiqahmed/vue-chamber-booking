@@ -17,6 +17,8 @@ require('@vaadin/vaadin-lumo-styles/icons');
 
 require('@polymer/app-layout');
 require('@polymer/paper-card');
+require('@polymer/paper-listbox');
+require('@polymer/paper-item');
 
 
 Vue.config.productionTip = false

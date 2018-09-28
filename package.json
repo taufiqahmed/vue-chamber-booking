@@ -10,8 +10,11 @@
   "dependencies": {
     "@polymer/app-layout": "^3.0.1",
     "@polymer/paper-card": "^3.0.1",
+    "@polymer/paper-item": "^3.0.1",
+    "@polymer/paper-listbox": "^3.0.1",
     "@vaadin/vaadin-button": "^2.1.0",
     "@vaadin/vaadin-form-layout": "^2.1.0",
+    "@vaadin/vaadin-list-box": "^1.1.0",
     "@vaadin/vaadin-lumo-styles": "^1.2.0",
     "@vaadin/vaadin-text-field": "^2.1.2",
     "register-service-worker": "^1.0.0",
