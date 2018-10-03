@@ -1,27 +1,28 @@
 <template>
   <div id="app">
     <app-drawer-layout>
-    <app-drawer slot="drawer">
-      <app-toolbar>Vue Chamber</app-toolbar>
-      <paper-listbox>
-        <paper-item>Dashboard</paper-item>
-        <paper-item>Manage Chamber</paper-item>
-        <paper-item>Online Booking</paper-item>
-        <paper-item>Settings</paper-item>
-      </paper-listbox>
-    </app-drawer>
-    <app-header-layout>
-      <app-header slot="header">
-        <app-toolbar>
-          <div main-title>Title</div>
-        </app-toolbar>
-      </app-header>
-      <div class="content">
-        <router-view/>
-      </div>
-    </app-header-layout>
-  </app-drawer-layout>
-    
+      <app-drawer slot="drawer">
+        <app-toolbar>Vue Chamber</app-toolbar>
+        <nav class="side-nav">
+          <ul>
+            <li><a href="/">Dashboard</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="">Item 2</a></li>
+            <li><a href="">Item 3</a></li>
+          </ul>
+        </nav>
+      </app-drawer>
+      <app-header-layout>
+        <app-header slot="header">
+          <app-toolbar>
+            <div main-title>Title</div>
+          </app-toolbar>
+        </app-header>
+        <div class="content">
+          <router-view/>
+        </div>
+      </app-header-layout>
+    </app-drawer-layout>
   </div>
 </template>
 

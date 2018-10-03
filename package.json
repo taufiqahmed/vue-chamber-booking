@@ -17,6 +17,7 @@
     "@vaadin/vaadin-list-box": "^1.1.0",
     "@vaadin/vaadin-lumo-styles": "^1.2.0",
     "@vaadin/vaadin-text-field": "^2.1.2",
+    "localforage": "^1.7.2",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
